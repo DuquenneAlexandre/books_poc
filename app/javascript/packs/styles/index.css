@@ -1,0 +1,55 @@
+body {
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.Index_container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Books_by_author {
+  color: #3A3C3C;
+
+}
+
+.Books_by_author_book_name {
+  color: #3A3C3C;
+}
+
+.search_books_by_book_name_label {
+  font-size: 20px;
+}
+
+.search_books_by_book_name_input {
+  width: 300px;
+  height: 33px;
+  font-size: 20px;
+}
+
+.search_books_by_book_name_results {
+  font-size: 20px;
+  background-color: white;
+  max-width: 306px;
+  max-height:224px;
+  overflow:auto;
+}
+
+.search_books_by_author_name_label {
+  font-size: 20px;
+
+}
+
+.search_books_by_author_name_input {
+  width: 300px;
+  height: 33px;
+  font-size: 20px;
+}
+
+.search_books_by_author_name_results {
+  font-size: 20px;
+  background-color: white;
+  max-width: 306px;
+  max-height:224px;
+  overflow:auto;
+}
